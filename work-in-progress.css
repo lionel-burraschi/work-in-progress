@@ -1,0 +1,47 @@
+h2 {
+    text-align: center;
+    color: white;
+    font-family: Tahoma;
+}
+
+p {
+    margin: 100px 0 0 50px;
+    color: rgb(0, 0, 0);
+    font-family: Andale Mono, monospace;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.boylogo {
+    animation: 25s infinite reverse boylogomove;
+    margin-top: 10vh
+    }
+
+.noteimg {
+    margin: 10px 0 0 50px;
+    display: flex;
+}
+
+#icon {
+    margin-top: 5vh;
+    text-align: center;
+}
+
+@keyframes boylogomove {
+    0%{}
+    10%{transform: translateX(50vw);}
+    20%{transform: translateX(0vw);}
+    30%{transform: translateX(50vw);}
+    40%{transform: translateX(0vw);}
+    50%{transform: translateX(50vw);}
+    60%{transform: translateX(0vw);}
+    70%{transform: translateX(50vw);}
+    80%{transform: translateX(0vw);}
+    90%{transform: translateX(50vw);}
+    100%{transform: translateX(0vw);}
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
