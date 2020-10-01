@@ -1,12 +1,22 @@
+body {
+    background-image:url(work-in-progress-background.png);
+}
+
 h2 {
     text-align: center;
     color: white;
     font-family: Tahoma;
+    /* background-color: rgb(255, 136, 0); */
+    margin-top: 2px;
+    border-radius: 10rem;
+    border-width: 3px 3px 3px 3px;
+    border-style:dotted;
+    border-color: gold;
 }
 
 p {
     margin: 100px 0 0 50px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: Andale Mono, monospace;
     font-size: medium;
     font-weight: bold;
@@ -15,10 +25,10 @@ p {
 .boylogo {
     animation: 25s infinite reverse boylogomove;
     margin-top: 10vh
-    }
+}
 
 .noteimg {
-    margin: 10px 0 0 50px;
+    margin: 10px 0 0 150px;
     display: flex;
 }
 
@@ -41,7 +51,7 @@ p {
     100%{transform: translateX(0vw);}
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     flex-direction: row;
 }
